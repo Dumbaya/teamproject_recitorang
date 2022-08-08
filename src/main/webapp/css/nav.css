@@ -1,0 +1,107 @@
+@charset "EUC-KR";
+.pr_body_form>img{
+	width:200px;
+	height:200px;
+}
+.pr_body_form{
+	display:block;
+}
+.pr_body_ul{
+	display: block;
+    list-style-type: circle;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    margin:0;
+    vertical-align:top;
+}
+.pr_body_li{
+	list-style: none;
+    padding: 0;
+    margin: 0 12px 40px 0;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+.pr_body_img{
+	position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+    box-sizing:border-box;
+}
+.pr_body_text{
+	padding: 10px 2px;
+	align:center;
+}
+.pr_body_text_title{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.5;
+    margin: 0 0 6px 0;
+    color: #000;
+    text-align: left;
+    font-size: 15px;
+}
+.pr_body_text_un{
+	color: #999;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 14px;
+    vertical-align: 0;
+    padding: 0 1px 7px 0;
+    font-weight: 300;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.pr_body_text_views{
+	vertical-align: middle;
+	color: #999;
+    font-size: 13px;
+    margin-left: 2px;
+    font-weight: 300;
+    line-height: 1;
+}
+.text_center{
+	text-align: center;
+    clear: both;
+}
+.ul_num{
+	display: inline-block;
+    padding-left: 0;
+    margin: 30px 0;
+    border-radius: 0;
+    list-style-type: circle;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.li_num{
+	display: inline;
+	text-align: -webkit-match-parent;
+}
+.li_num>a{
+	z-index: 2;
+    color: #ff5e5e;
+    cursor: default;
+    background-color: #fff;
+    border-color: #ebebeb;
+    font-weight: 600;
+    position: relative;
+    float: left;
+    padding: 9px 15px;
+    margin: 0 3px;
+    line-height: 1.42857143;
+    border: 1px solid #ebebeb;
+    border-radius: 0;
+    text-decoration: none;
+}
